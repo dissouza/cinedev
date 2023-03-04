@@ -9,7 +9,7 @@ body{
 }
 
 
-main, #movie-title, .box, .seta, .movie, .main-movie, button{
+main, #movie-title, #rating, .box, .arrow, .movie, .main-movie, button{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -20,7 +20,7 @@ main{
 	flex-direction: column;	
 }
 
-#movie-title{
+#movie-title, #rating{
 	font-size: 5vw;
 	color: white;
 	font-weight: bold;
@@ -63,7 +63,7 @@ body{
 }
 
 
-main, #movie-title, .box, .seta, .movie{
+main, #movie-title, #rating, .box, .arrow, .movie{
 	display: flex;
 	justify-content: center;
 	align-items: center;	
@@ -75,9 +75,10 @@ main{
 	flex-direction: column;
 }
 
-#movie-title{	
+#movie-title, #rating{	
 	color: white;
 	font-size: 1.2vw;
+	font-weight: bolder;
 	padding: 1.2vw;
 }
 
@@ -103,7 +104,6 @@ button{
 
 .main-movie{
 	max-width: 45%;	
-	
 	margin: 0 10%;
 }
 }
