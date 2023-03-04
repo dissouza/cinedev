@@ -9,21 +9,30 @@ body{
 }
 
 
-main, .box, .seta, .filme, .main-movie, button{
+main, #movie-title, .box, .seta, .movie, .main-movie, button{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 main{
-	width: 100%;	
+	width: 100%;
+	flex-direction: column;	
 }
+
+#movie-title{
+	font-size: 5vw;
+	color: white;
+	font-weight: bold;
+	padding: 5vw;
+}
+
 
 .box{
 	max-width: 100%;
 }
 
-.filme{
+.movie{
 	max-width: 88%;
 	justify-content: space-between;
 }
@@ -35,8 +44,7 @@ button{
 	color: white;
 	background: none;
 	border-style: none;
-	margin: 0;
-	
+	margin: 0;	
 }
 
 .main-movie{
@@ -55,16 +63,31 @@ body{
 }
 
 
-main, .seta, .filme{
+main, #movie-title, .box, .seta, .movie{
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;	
 }
 
 main{
 	width: 70%;	
 	margin: 0 auto;
+	flex-direction: column;
+}
 
+#movie-title{	
+	color: white;
+	font-size: 1.2vw;
+	padding: 1.2vw;
+}
+
+
+.box{
+	width: 100%;
+}
+
+.movie{	
+	
 }
 
 button{	
@@ -75,12 +98,12 @@ button{
 	color: white;
 	background: none;
 	border-style: none;
+	margin: 0;
 }
 
 .main-movie{
-
-	max-width: 60%;	
-	padding: 4%;
-	margin: 0 auto;
+	max-width: 45%;	
+	
+	margin: 0 10%;
 }
 }
